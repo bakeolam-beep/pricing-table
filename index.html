@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, width-scale=1.0" />
+        <title> Pricing Table | HTML CSS </title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel=""/>
+    </head>
+
+    <body>
+        <!-- Pricing Container -->
+        <div class="pricing-container">
+            <h1>Choose Your Plan</h1>
+            <p class="subtitle">Switch to yearly billing and save 20%</p>
+
+            <!-- Toggle Switch -->
+            <div class="toggle-wrapper">
+                <span class="toggle-label">Monthly</span>
+                <input type="checkbox" id="billing" class="toggle-input" />
+                <label for="billing-toggle" class="toggle-switch"></label>
+                <span class="toggle-label">Yearly</span>
+                <input type="checkbox" id="billing" class="toggle-input" />
+                <label for="billing-toggle" class="toggle-switch"></label>
+            </div>
+
+            <!-- Pricing Cards -->
+            <div class="cards">
+
+                <!-- Basic Plan -->
+                <div class="card">
+                    <h2>Basic</h2>
+                    <div class="price">
+                        <span class="price-monthly">$18</span>
+                        <span class="price-yearly">$180</span>
+                        <span class="period" data-month="/month" data-year="/year"></span>
+                    </div>
+
+                    <ul class="features">
+                        <li>1 User</li>
+                        <li>5GB Storage</li>
+                        <li>Email Support</li>
+                    </ul>
+
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+                <br>
+                <br>
+
+                <!-- Pro Plan -->
+                <div class="card popular">
+                    <div class="badge">Most Popular</div>
+                    <h2>Pro</h2>
+                    <div class="price">
+                        <span class="price-monthly">$49</span>
+                        <span class="price-yearly">$490</span>
+                        <span class="period">/month</span>
+                    </div>
+
+                    <ul class="features">
+                        <li>5 Users</li>
+                        <li>50GB Storage</li>
+                        <li>Priority Support</li>
+                        <li>Advanced Analytics</li>
+                    </ul>
+
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Enterprise Plan -->
+                <div class="card">
+                    <h2>Enterprise</h2>
+                    <div class="price">
+                        <span  class="price-monthly">$99</span>
+                        <span class="price-yearly">$990</span>
+                        <span class="period">/month</span>
+                    </div>
+                        <ul class="features">
+                            <li>Unlimited Users</li>
+                            <li>500GB Storage</li>
+                            <li>24/7 Dedicated Support</li>
+                            <li>Custom Integration</li>
+                            <li>SLA Guaranteed</li>
+                        </ul>
+
+                        <a href="#" class="btn">Get Started</a>
+                    
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
