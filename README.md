@@ -37,7 +37,7 @@ The project focuses on readability, comparison, and conversion-oriented layout p
 
 ## Demo
 
-🌐 **Live Demo:** _Paste your Vercel URL here_
+🌐 **Live Demo:** (https://pricing-table-neon.vercel.app/)
 
 ### Animated Preview
 
