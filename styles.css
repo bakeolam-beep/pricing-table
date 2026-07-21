@@ -1,15 +1,15 @@
 :root {
     --primary: #4f46e5;
     --primary-hover: #4338ca;
-    --bg: #f8fafc;
+    --bg: #adb3ba;
     --card-bg: #cad4c7;
     --text: #18293b;
     --text-muted: #64748b;
     --border: #2e8f02;
-    --shadow: 0 4px 12px rgba(0,0,0,0.06);
-    --shadow-hover: 0 12px 30px rgba(0,0,0,0.1);
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    --shadow-hover: 0 12px 30px rgba(0, 0, 0, 0.1);
     --radius: 16px;
-    --toggle-bg: #cbd5e1 ;
+    --toggle-bg: #cbd5e1;
     --toggle-checked: var(--primary);
 
 }
@@ -31,7 +31,7 @@ body {
     padding: 2rem 1.5rem;
 }
 
-    /* Container & Header */
+/* Container & Header */
 .pricing-container {
     width: 100%;
     max-width: 100px;
@@ -67,7 +67,7 @@ h1 {
 
 .toggle-input {
     display: none;
-    
+
 }
 
 .toggle-switch {
@@ -92,17 +92,17 @@ h1 {
     transition: transform 0.3s;
 }
 
-.toggle-input:checked + .toggle-switch {
+.toggle-input:checked+.toggle-switch {
     background: var(--toggle-checked);
 }
 
-.toggle-input:checked + .toggle-switch::after {
+.toggle-input:checked+.toggle-switch::after {
     transform: translateX(24px);
 }
 
 
 
-    /* Cards */
+/* Cards */
 .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -160,16 +160,16 @@ h1 {
 
 
 
-#billing-toggle:checked ~ .cards .price-yearly {
+#billing-toggle:checked~.cards .price-yearly {
     display: inline;
 }
 
-#billing-toggle:checked ~ .cards .price-monthly {
+#billing-toggle:checked~.cards .price-monthly {
     display: none;
 }
 
 
-#billing-toggle:checked ~ .cards .period {
+#billing-toggle:checked~.cards .period {
     content: "/year";
 }
 
@@ -177,7 +177,7 @@ h1 {
     content: attr(data-month);
 }
 
-#billing-toggle:checked ~ .cards .period::after {
+#billing-toggle:checked~.cards .period::after {
     content: attr(data-year);
 }
 
